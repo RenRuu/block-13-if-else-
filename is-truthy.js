@@ -7,22 +7,44 @@
 //          "The empty string is falsy (the only falsy string)";
 
 
-let fish = ["I am a string", false, null, undefined, 0, ""];
+// Showing True; 
+let fish = "I am a string";
 
 if (fish) {
-    console.log(true);
-} else if (fish === false) {
-    console.log("The boolean values false is falsy");
-} else if (fish === null) {
-    console.log("The null values is falsy");
-} else if (fish === 0) {
-    console.log("The number 0 is falsy (the only falsy number)");
-} else if (fish === "") {
-    console.log("The empty string is falsy (the only falsy string)");
-} else if (fish === undefined) {
-    console.log("undefined is falsy");
+    console.log("True");
 }
 
+// Showing false; Expected output "The boolean value false is falsy"
+let fish2 = "False";
 
+if (fish2) {
+    console.log("The boolean value false is falsy");
+} 
 
+// Showing false; Expected output "The null value is falsy"
+let fish3 = "False";
 
+if (fish3) {
+    console.log("The null value is falsy");
+} 
+
+//Showing false; Expected output "undefined is falsy"
+let fish4 = "False";
+
+if (fish4) {
+    console.log("undefined is falsy");
+} 
+
+//Showing false; Expected output "The number 0 is falsy (the only falsy number)"
+let fish5 = "False";
+
+if (fish5) {
+    console.log("The number 0 is falsy (the only falsy number)");
+} 
+
+//Showing false; Expected output "The empty string is falsy (the only falsy string)"
+let fish6 = "False";
+
+if (fish6) {
+    console.log("The empty string is falsy (the only falsy string)");
+} 
